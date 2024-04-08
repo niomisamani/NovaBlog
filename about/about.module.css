@@ -1,0 +1,21 @@
+/* components/about/about.module.css */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.title {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+.para{
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 10px;
+    line-height: 1.5 ;
+    padding: 5px 5px;
+}

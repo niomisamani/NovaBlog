@@ -1,0 +1,61 @@
+.categoryList {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  color: black;
+}
+
+.categoryItem {
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.categoryItem.sports {
+  background-color: #a5dbfb;
+}
+
+.categoryItem.fashion {
+  background-color: #f1e78c;
+}
+
+.categoryItem.food {
+  background-color: #78f99c;
+}
+
+.categoryItem.travel {
+  background-color: #a5dbfb;
+}
+
+.categoryItem.culture {
+  background-color: #f1e78c;
+}
+
+.categoryItem.coding {
+  background-color: #78f99c;
+}
+
+/* Offset effect */
+.offset {
+  --color:  #eeb8f6; /* Adjust the color as needed */
+  --hover: #ba98f6; /* Adjust the hover color as needed */
+
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.offset:hover,
+.offset:focus {
+  box-shadow: 
+    0 0 0 0 var(--hover),
+    inset 6em 3.5em 0 0 var(--hover);
+}
+
+

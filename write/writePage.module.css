@@ -1,0 +1,139 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #B3B3B1;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .category{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 10px 20px;
+    width: max-content;
+  }
+  
+  
+  .editor {
+    display: flex;
+    gap: 40px;
+    height: 600px;
+    position: relative;
+  }
+  
+  .button,
+  .addButton,
+  .adButton {
+    /* position: relative; */
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    padding: 3px;
+    background-color: transparent;
+    border: 1px solid var(--textColor);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    left: 25px;
+  }
+  .button{
+    left: 60px;
+  
+  }
+  
+  .adButton {
+    /* border-color: ; */
+    border: 3px solid #1a8917;
+    /* margin-left: 20px; */
+  }
+  
+  .add {
+    display: flex;
+    gap: 20px;
+    background-color: var(--bg);
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    left: 20px;
+    /* margin-top: 50px; */
+    
+  }
+  
+  .input{
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    border: 2px solid #B3B3B1;
+    outline: none;
+    background-color: transparent;
+    color: var(--textColor);
+    text-align: center;
+    position: relative;
+  }
+  
+  .input::placeholder{
+    color: #b3b3b1;
+   text-align: center;
+  }
+  
+  .textArea {
+    width: 80%;
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    justify-content: center;
+    overflow: auto;
+    font-size: 20px;
+  }
+
+  /* .textArea::placeholder{
+    text-align: center;
+  } */
+  
+  .publish{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1a8917;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 22px;
+  }
+
+  .select {
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    /* margin-left: 50px; */
+    width: 100px;
+    /* background-color: #830f68; */
+    background-color: #970976;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: max-content;
+  }
+  
+  .select option {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .select option:hover {
+    background-color: #970976 ; /* Change the background color on hover */
+  }
+  
+
+  
+  
+  
